@@ -122,12 +122,12 @@ func makeMove(oldCol int, dir string) (newCol int) {
 	newCol = oldCol
 	switch dir {
 	case "RIGHT":
-		newCol = newCol + 1
+		newCol = newCol + 2
 		if newCol == len(Grid[0]) {
 			newCol = oldCol
 		}
 	case "LEFT":
-		newCol = newCol - 1
+		newCol = newCol - 2
 		if newCol < 0 {
 			newCol = oldCol
 		}

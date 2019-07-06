@@ -43,7 +43,7 @@ func playRound(inp string) {
 }
 
 func dropPlayerCell() {
-	dropCol := player.col
+	dropCol := player.col / 2
 	dropRow := 0
 	// find out how to do reverse range
 	for i, row := range Grid {

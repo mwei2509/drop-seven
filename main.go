@@ -115,6 +115,7 @@ func printScreen() {
 	for _, row := range Grid {
 		for _, cell := range row {
 			printCell(cell)
+			fmt.Printf("|")
 		}
 		fmt.Printf("\n")
 	}
