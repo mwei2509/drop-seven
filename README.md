@@ -19,6 +19,7 @@ The map is a 7 by 7 grid.  The objective of the game is to not allow all 7 rows 
 7x7 grid
 
 |   |   |   |   |   |   |   |
+|---|---|---|---|---|---|---|
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
